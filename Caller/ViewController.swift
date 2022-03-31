@@ -18,10 +18,6 @@ class ViewController: NSViewController {
         // Do any additional setup after loading the view.
     }
     
-    deinit{
-        print("Deinit viewcontroller")
-    }
-
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
